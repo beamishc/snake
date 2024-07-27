@@ -1,6 +1,5 @@
 import unittest
-from snake_py.start import Snake
-
+from snake.snake_class import Snake
 class TestSnake(unittest.TestCase):
     def setUp(self):
         self.snake = Snake()
